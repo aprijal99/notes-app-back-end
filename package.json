@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start-prod": "NODE_ENV=production node ./index.js",
+    "start-dev": "nodemon index.js",
     "lint": "eslint ./"
   },
   "author": "",
